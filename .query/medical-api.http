@@ -1,0 +1,12 @@
+### process-file
+POST {{host}}/process-file
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name=file; filename=vaccination.csv
+Content-Type: application/csv
+
+< ./data/vaccination.csv
+
+### vaccination
+GET {{host}}/vaccination?document=123

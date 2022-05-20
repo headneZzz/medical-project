@@ -1,0 +1,38 @@
+### Создать
+POST {{host}}/person
+Content-Type: application/json
+Accept: application/json
+
+< ./data/person.json
+
+### Обновить
+PUT {{host}}/person/1
+Content-Type: application/json
+Accept: application/json
+
+< ./data/update_person.json
+
+### Получить всех пользователей
+GET {{host}}/person
+Content-Type: application/json
+Accept: application/json
+
+### Получить пользователя по id
+GET {{host}}/person/1
+Content-Type: application/json
+Accept: application/json
+
+### Получить данные по Москве
+GET {{host}}/person?region=Москва
+Content-Type: application/json
+Accept: application/json
+
+### Проверить валидность
+GET {{host}}/person/verify?name=123&passport=123
+Content-Type: application/json
+Accept: application/json
+
+### Получить пользователя по пасспорту
+GET {{host}}/person/passport/123
+Content-Type: application/json
+Accept: application/json

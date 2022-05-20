@@ -1,0 +1,2 @@
+fullName,passportNumber,vaccinationDate,vaccineId,vaccineName,vaccinationPointId,vaccinationPointName,vaccinationPointCity,vaccinationPointAddress
+123,"123","2022-05-10",1,"Спутник",1,"Пункт","Москва","Улица"

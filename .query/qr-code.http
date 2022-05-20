@@ -1,0 +1,5 @@
+### Получить QR по пасспорту
+GET {{host}}/qr/123
+
+### check
+GET {{host}}/qr/check?code=b7d6f6c9785e596af6f993e2681933ca

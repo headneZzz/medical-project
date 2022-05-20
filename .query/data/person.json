@@ -1,0 +1,29 @@
+{
+  "firstName": "123",
+  "lastName": "last",
+  "middleName": "middle",
+  "identityDocuments": [{
+    "type": "PASSPORT",
+    "number": "123"
+  }],
+  "contacts": [{
+
+  }],
+  "registrationAddress": {
+    "regionName": "Москва",
+    "city": "Москва",
+    "street": "Улица"
+  },
+  "residentialAddresses": [
+    {
+      "regionName": "Москва",
+      "city": "Москва",
+      "street": "Улица"
+    },
+    {
+      "regionName": "Ростов",
+      "city": "Ростов",
+      "street": "Улица"
+    }
+  ]
+}
